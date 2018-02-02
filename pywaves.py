@@ -9,7 +9,8 @@ class testPyWaves(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'application/json'
         payload = {"asset2": "WAVES", "asset1": "AnERqFRffNVrCbviXbDEdzrU6ipXCP5Y1PKpFdRnyQAy","privateKey": "2ekkyJmCKagiaFBJ94cuP3pn8oHJPAytMuCJGgSpxxdM"}
-        url = "ec2-52-36-3-139.us-west-2.compute.amazonaws.com:3000/api/waves/assetpairs/all"
+        url = "http://ec2-34-217-82-62.us-west-2.compute.amazonaws.com:3000/api/waves/assetpairs/all"
+
         headers = {'content-type': 'application/json'}
         logging.info("sending pywaves test:")
         logging.info(payload)

@@ -15,8 +15,16 @@ handlers:
 - url: /fonts
   static_dir: static/uikit-2.27.1/fonts
 
+- url: /cron/orderbook
+  script: orderbook.app
+
 - url: /pywaves
   script: pywaves.app
+
+- url: /ath
+  script: ath.app
+  secure: always
+
 
 - url: .*
   script: main.app

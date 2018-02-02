@@ -1,0 +1,4 @@
+cron:
+- description: Retrieve waves orderbook
+  url: /cron/orderbook
+  schedule: every 5 minutes
