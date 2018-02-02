@@ -1,3 +1,6 @@
+# Other notes:
+#   Cryptocompare Social Stats: https://www.cryptocompare.com/api/#-api-data-socialstats-
+
 import webapp2
 import logging
 import json
