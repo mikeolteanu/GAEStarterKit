@@ -70,3 +70,5 @@ config.py
 .idea/
 
 .dsstore/
+/apps/.DS_Store
+/.DS_Store

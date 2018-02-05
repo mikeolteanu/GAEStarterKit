@@ -1,4 +1,8 @@
 cron:
-- description: Retrieve waves orderbook
-  url: /cron/orderbook
-  schedule: every 5 minutes
+# - description: Retrieve waves orderbook
+#   url: /cron/orderbook
+#   schedule: every 5 minutes
+
+# - description: Check for new coin
+#   url: /cron/newcoin
+#   schedule: every 5 minutes

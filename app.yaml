@@ -18,6 +18,9 @@ handlers:
 - url: /cron/orderbook
   script: orderbook.app
 
+- url: /cron/newcoin
+  script: newcoin.app
+
 - url: /pywaves
   script: pywaves.app
 
